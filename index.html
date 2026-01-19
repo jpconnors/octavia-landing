@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO BASICS -->
+  <title>Octavia Botanicals | Luxury Hand-Poured Candles in Boston</title>
+  <meta name="description" content="Luxury hand-poured candles crafted in small batches with clean ingredients and timeless design. Based in Boston—shop online or find us at local markets and pop-ups." />
+
+  <!-- CANONICAL (update with your real domain) -->
+  <link rel="canonical" href="https://Octaviabotanicals.com/" />
+
+  <!-- SOCIAL PREVIEW (optional image later) -->
+  <meta property="og:title" content="Octavia Botanicals | Luxury Hand-Poured Candles in Boston" />
+  <meta property="og:description" content="Small-batch luxury candles with clean ingredients and elevated, timeless scent profiles. Shop online or find us at Boston markets." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://Octaviabotanicals.com/" />
+  <!-- <meta property="og:image" content="https://Octaviabotanicals.com/og-image.jpg" /> -->
+
+  <!-- LOCAL SEO: STRUCTURED DATA (edit the fields you want public) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Octavia Botanicals",
+    "description": "Luxury hand-poured candles crafted in small batches with clean ingredients and timeless design.",
+    "areaServed": "Boston, MA",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://instagram.com/octaviabotanicals"
+    ],
+    "url": "https://Octaviabotanicals.com/"
+  }
+  </script>
+
+  <style>
+    :root{
+      --gold:#bd9352;
+      --black:#0b0b0b;
+      --white:#ffffff;
+      --muted:#6b6b6b;
+      --border:#ececec;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      margin:0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background: var(--white);
+      color: var(--black);
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .wrap{
+      width:100%;
+      max-width: 920px;
+      padding: 28px 18px;
+    }
+
+    .card{
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 34px 22px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+    }
+
+    .brand{
+      text-align:center;
+      margin-bottom: 18px;
+    }
+
+    .brand h1{
+      margin:0;
+      font-size: clamp(2.0rem, 3.5vw, 2.6rem);
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .divider{
+      width: 64px;
+      height: 2px;
+      background: var(--gold);
+      margin: 14px auto 0;
+      border-radius: 1px;
+    }
+
+    .hero{
+      text-align:center;
+      margin: 20px auto 26px;
+      max-width: 640px;
+    }
+
+    .hero p{
+      margin: 0 auto;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #2a2a2a;
+    }
+
+    .sub{
+      margin-top: 10px !important;
+      color: var(--muted) !important;
+      font-size: 0.98rem !important;
+    }
+
+    .actions{
+      display:flex;
+      gap: 12px;
+      justify-content:center;
+      flex-wrap: wrap;
+      margin: 26px 0 12px;
+    }
+
+    a.btn{
+      display:inline-block;
+      text-decoration:none;
+      padding: 12px 18px;
+      border-radius: 12px;
+      font-weight: 650;
+      letter-spacing: 0.4px;
+      transition: transform .12s ease, background .12s ease, color .12s ease, border-color .12s ease;
+      border: 1.5px solid var(--gold);
+      color: var(--black);
+      background: var(--white);
+      min-width: 200px;
+      text-align:center;
+    }
+
+    a.btn:hover{
+      transform: translateY(-1px);
+      background: var(--gold);
+      color: var(--white);
+    }
+
+    a.btn.secondary{
+      border-color: #d9d9d9;
+      color: var(--black);
+      background: #fafafa;
+    }
+
+    a.btn.secondary:hover{
+      border-color: var(--gold);
+      background: #fff;
+      color: var(--black);
+    }
+
+    .grid{
+      display:grid;
+      gap: 14px;
+      grid-template-columns: 1fr;
+      margin-top: 22px;
+    }
+
+    @media (min-width: 820px){
+      .grid{ grid-template-columns: 1.2fr 0.8fr; }
+      .card{ padding: 38px 34px; }
+    }
+
+    .panel{
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 16px;
+      background: #fff;
+    }
+
+    .panel h2{
+      margin: 0 0 8px 0;
+      font-size: 1.05rem;
+      letter-spacing: 0.3px;
+    }
+
+    .panel p{
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 0.98rem;
+    }
+
+    .tag{
+      display:inline-block;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: var(--black);
+      border: 1px solid rgba(189,147,82,0.35);
+      background: rgba(189,147,82,0.10);
+      padding: 6px 10px;
+      border-radius: 999px;
+    }
+
+    footer{
+      text-align:center;
+      margin-top: 16px;
+      color: #8a8a8a;
+      font-size: 0.9rem;
+    }
+
+    .fine{
+      margin-top: 6px;
+      font-size: 0.82rem;
+      color: #9a9a9a;
+    }
+  </style>
+
+  <!-- CLOUDFLARE WEB ANALYTICS (paste your token below AFTER you set it up) -->
+  <!--
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "PASTE_YOUR_TOKEN_HERE"}'></script>
+  -->
+</head>
+
+<body>
+  <main class="wrap">
+    <section class="card" role="region" aria-label="Octavia Botanicals landing page">
+      <div class="brand">
+        <h1>Octavia Botanicals</h1>
+        <div class="divider"></div>
+      </div>
+
+      <div class="hero">
+        <p>
+          Luxury hand-poured candles crafted in small batches with clean ingredients and elevated, timeless scent profiles.
+        </p>
+        <p class="sub">
+          Based in <strong>Boston, MA</strong> — shop online or find us at local markets & pop-ups.
+        </p>
+      </div>
+
+      <div class="actions">
+        <!-- Square link with UTMs -->
+        <a class="btn"
+           href="https://octaviabotanicals.square.site?utm_source=octavia_site&utm_medium=landing_page&utm_campaign=shop_now"
+           rel="noopener">
+          Shop Candles
+        </a>
+
+        <!-- Instagram link with UTMs -->
+        <a class="btn secondary"
+           href="https://instagram.com/octaviabotanicals?utm_source=octavia_site&utm_medium=landing_page&utm_campaign=follow_ig"
+           rel="noopener">
+          Follow on Instagram
+        </a>
+      </div>
+
+      <div class="grid">
+        <div class="panel">
+          <h2>Signature Collection</h2>
+          <p>
+            Discover calming florals, bright citrus, and warm, modern blends—designed to feel refined, not overpowering.
+            Perfect for gifting, slow mornings, and a space that feels intentionally yours.
+          </p>
+          <span class="tag">Black • White • Gold</span>
+        </div>
+
+        <div class="panel">
+          <h2>Markets & Pop-ups</h2>
+          <p>
+            We rotate through Boston-area markets and seasonal pop-ups.
+            For the next dates and locations, check Instagram (updated regularly).
+          </p>
+          <span class="tag">Boston, MA</span>
+        </div>
+      </div>
+
+      <footer>
+        © <span id="year"></span> Octavia Botanicals
+        <div class="fine">Hand-poured • Small-batch • Clean ingredients</div>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    // tiny enhancement (no performance impact)
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
